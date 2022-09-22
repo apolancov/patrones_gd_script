@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://chv6yymsrh4nq"]
+
+[ext_resource type="Script" path="res://powerups/strength_up/strength_up.gd" id="1_qtkcs"]
+[ext_resource type="Texture2D" uid="uid://384tin5hc7u8" path="res://icon.svg" id="2_r4aq1"]
+
+[node name="StrengthUp" type="Node2D"]
+script = ExtResource("1_qtkcs")
+id = "strength"
+
+[node name="Sprite2d" type="Sprite2D" parent="."]
+modulate = Color(1, 0.415686, 0.223529, 1)
+position = Vector2(503, 315)
+texture = ExtResource("2_r4aq1")

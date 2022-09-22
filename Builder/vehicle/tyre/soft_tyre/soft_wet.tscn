@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://djrv8xsiugjoh"]
+
+[ext_resource type="Script" path="res://vehicle/tyre/soft_tyre/soft_wet.gd" id="1_2cwln"]
+[ext_resource type="Texture2D" uid="uid://dqhs6u3l43fbo" path="res://assets/pink tyre.png" id="1_vsdcp"]
+
+[node name="SoftWet" type="Node2D"]
+script = ExtResource("1_2cwln")
+
+[node name="PinkTyre" type="Sprite2D" parent="."]
+position = Vector2(16, 46)
+texture = ExtResource("1_vsdcp")

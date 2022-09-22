@@ -1,0 +1,15 @@
+[gd_scene load_steps=5 format=3 uid="uid://pqf2bavkuxv3"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_tef6m"]
+[ext_resource type="PackedScene" uid="uid://dyr27me0d0ukb" path="res://powerups/powerup_factory/power_ups_factory.tscn" id="2_2npky"]
+[ext_resource type="PackedScene" uid="uid://cwgb0ckyj8x23" path="res://heroes/hero_factory/hero_factory.tscn" id="2_lspma"]
+[ext_resource type="PackedScene" uid="uid://dehsltm5m4oj4" path="res://weapons/weapon_factory/weapon_factory.tscn" id="4_deip1"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_tef6m")
+
+[node name="HeroFactory" parent="." instance=ExtResource("2_lspma")]
+
+[node name="PowerUpsFactory" parent="." instance=ExtResource("2_2npky")]
+
+[node name="WeaponFactory" parent="." instance=ExtResource("4_deip1")]

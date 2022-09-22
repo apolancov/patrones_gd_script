@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://ba3jrenby4jov"]
+
+[ext_resource type="Script" path="res://vehicle/chasis/normal_chasis/normal_chasis.gd" id="1_l33gt"]
+[ext_resource type="Texture2D" uid="uid://bbsu1fp6pmdi8" path="res://assets/chasis orange.png" id="2_0314i"]
+
+[node name="NormalChasis" type="Node2D"]
+script = ExtResource("1_l33gt")
+
+[node name="ChasisOrange" type="Sprite2D" parent="."]
+position = Vector2(164, 181)
+texture = ExtResource("2_0314i")

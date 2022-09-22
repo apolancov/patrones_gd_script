@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://ig2flju35jla"]
+
+[ext_resource type="Script" path="res://powerup_factory/power_ups_factory.gd" id="1_xplcm"]
+[ext_resource type="PackedScene" uid="uid://lsxbodepta3" path="res://powerup_factory/powerup_configuration.tscn" id="2_e5bxv"]
+
+[node name="PowerUpsFactory" type="Node"]
+script = ExtResource("1_xplcm")
+
+[node name="PowerupConfiguration" parent="." instance=ExtResource("2_e5bxv")]

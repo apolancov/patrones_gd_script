@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwgb0ckyj8x23"]
+
+[ext_resource type="Script" path="res://heroes/hero_factory/hero_factory.gd" id="1_n1ixd"]
+[ext_resource type="PackedScene" uid="uid://sg80w2lsiwdp" path="res://heroes/hero_factory/hero_configuration.tscn" id="2_t5s0b"]
+
+[node name="HeroFactory" type="Node"]
+script = ExtResource("1_n1ixd")
+
+[node name="HeroConfiguration" parent="." instance=ExtResource("2_t5s0b")]

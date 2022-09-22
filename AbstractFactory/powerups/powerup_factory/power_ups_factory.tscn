@@ -1,0 +1,14 @@
+[gd_scene load_steps=7 format=3 uid="uid://dyr27me0d0ukb"]
+
+[ext_resource type="Script" path="res://powerups/powerup_factory/power_ups_factory.gd" id="1_xplcm"]
+[ext_resource type="PackedScene" path="res://powerups/powerup_factory/powerup_configuration.tscn" id="2_e5bxv"]
+[ext_resource type="PackedScene" uid="uid://cdym5kr47qjp6" path="res://powerups/range_up/range_up.tscn" id="3_bc3jl"]
+[ext_resource type="PackedScene" uid="uid://dsm2abobgcn08" path="res://powerups/speed_up/speed_up.tscn" id="4_h6u1o"]
+[ext_resource type="PackedScene" uid="uid://chv6yymsrh4nq" path="res://powerups/strength_up/strength_up.tscn" id="5_utscx"]
+[ext_resource type="PackedScene" uid="uid://cq0i82jmcjgbl" path="res://powerups/agility_up/agility_up.tscn" id="6_ncp48"]
+
+[node name="PowerUpsFactory" type="Node"]
+script = ExtResource("1_xplcm")
+
+[node name="PowerupConfiguration" parent="." instance=ExtResource("2_e5bxv")]
+PowerupsArray = [ExtResource("3_bc3jl"), ExtResource("4_h6u1o"), ExtResource("5_utscx"), ExtResource("6_ncp48")]

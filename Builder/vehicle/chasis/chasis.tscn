@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4hm4x5hv8p8u"]
+
+[ext_resource type="Script" path="res://vehicle/chasis/chasis.gd" id="1_52s8q"]
+
+[node name="Chasis" type="Node2D"]
+script = ExtResource("1_52s8q")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cjn12hn68wcgj"]
+
+[ext_resource type="Script" path="res://weapons/weapon_factory/weapon_configuration.gd" id="1_snxby"]
+
+[node name="WeaponConfiguration" type="Node"]
+script = ExtResource("1_snxby")

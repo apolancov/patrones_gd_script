@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://1h8808ul6k7m"]
+
+[ext_resource type="Script" path="res://vehicle/tyre/tyre.gd" id="1_gqgar"]
+
+[node name="Tyre" type="Node2D"]
+script = ExtResource("1_gqgar")

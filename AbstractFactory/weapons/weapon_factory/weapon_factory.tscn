@@ -1,0 +1,13 @@
+[gd_scene load_steps=6 format=3 uid="uid://dehsltm5m4oj4"]
+
+[ext_resource type="Script" path="res://weapons/weapon_factory/weapon_factory.gd" id="1_iyjpm"]
+[ext_resource type="PackedScene" uid="uid://cjn12hn68wcgj" path="res://weapons/weapon_factory/weapon_configuration.tscn" id="2_6r5v0"]
+[ext_resource type="PackedScene" uid="uid://c11p78ybhgwei" path="res://weapons/maze/maze.tscn" id="3_a40kb"]
+[ext_resource type="PackedScene" uid="uid://cphtro8uykryj" path="res://weapons/shield/shield.tscn" id="4_womar"]
+[ext_resource type="PackedScene" uid="uid://bhey7ye21a22j" path="res://weapons/sword/sword.tscn" id="5_hugh5"]
+
+[node name="WeaponFactory" type="Node"]
+script = ExtResource("1_iyjpm")
+
+[node name="WeaponConfiguration" parent="." instance=ExtResource("2_6r5v0")]
+weaponsArray = [ExtResource("3_a40kb"), ExtResource("4_womar"), ExtResource("5_hugh5")]

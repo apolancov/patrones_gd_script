@@ -1,0 +1,10 @@
+[gd_scene load_steps=5 format=3 uid="uid://sg80w2lsiwdp"]
+
+[ext_resource type="Script" path="res://heroes/hero_factory/hero_configuration.gd" id="1_hh2ey"]
+[ext_resource type="PackedScene" uid="uid://ca2v0uiiyjbkq" path="res://heroes/mage/mage.tscn" id="2_66dox"]
+[ext_resource type="PackedScene" uid="uid://bprnoh2j67cxi" path="res://heroes/paladin/paladin.tscn" id="3_yh4f3"]
+[ext_resource type="PackedScene" uid="uid://dfh0lsym7hwid" path="res://heroes/warrior/warrior.tscn" id="4_72cjl"]
+
+[node name="HeroConfiguration" type="Node"]
+script = ExtResource("1_hh2ey")
+heroesArray = [ExtResource("2_66dox"), ExtResource("3_yh4f3"), ExtResource("4_72cjl")]

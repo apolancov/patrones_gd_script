@@ -1,0 +1,18 @@
+[gd_scene load_steps=7 format=3 uid="uid://qykoy4ak2bd6"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_tef6m"]
+[ext_resource type="PackedScene" uid="uid://ig2flju35jla" path="res://powerup_factory/power_ups_factory.tscn" id="2_2npky"]
+[ext_resource type="PackedScene" uid="uid://dsm2abobgcn08" path="res://powerups/speed_up/speed_up.tscn" id="3_were2"]
+[ext_resource type="PackedScene" uid="uid://cq0i82jmcjgbl" path="res://powerups/agility_up/agility_up.tscn" id="4_igvwy"]
+[ext_resource type="PackedScene" uid="uid://chv6yymsrh4nq" path="res://powerups/strength_up/strength_up.tscn" id="4_p3dg1"]
+[ext_resource type="PackedScene" uid="uid://cdym5kr47qjp6" path="res://powerups/range_up/range_up.tscn" id="6_1g5wf"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_tef6m")
+
+[node name="PowerUpsFactory" parent="." instance=ExtResource("2_2npky")]
+
+[node name="PowerupConfiguration" parent="PowerUpsFactory" index="0"]
+PowerupsArray = [ExtResource("3_were2"), ExtResource("4_igvwy"), ExtResource("4_p3dg1"), ExtResource("6_1g5wf")]
+
+[editable path="PowerUpsFactory"]

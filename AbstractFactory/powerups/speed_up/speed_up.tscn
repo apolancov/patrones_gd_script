@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dsm2abobgcn08"]
+
+[ext_resource type="Script" path="res://powerups/speed_up/speed_up.gd" id="1_2c5mi"]
+[ext_resource type="Texture2D" uid="uid://384tin5hc7u8" path="res://icon.svg" id="2_86uny"]
+
+[node name="SpeedUp" type="Node2D"]
+script = ExtResource("1_2c5mi")
+id = "speed"
+
+[node name="Sprite2d" type="Sprite2D" parent="."]
+modulate = Color(0, 0.462745, 0.8, 1)
+position = Vector2(66, 66)
+texture = ExtResource("2_86uny")

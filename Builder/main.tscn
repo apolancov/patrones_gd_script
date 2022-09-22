@@ -1,0 +1,12 @@
+[gd_scene load_steps=5 format=3 uid="uid://capqjfrmqaix1"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_kcapl"]
+[ext_resource type="PackedScene" uid="uid://did87kaa0ckc3" path="res://vehicle/camaro/camaro.tscn" id="2_fhphq"]
+[ext_resource type="PackedScene" uid="uid://ba3jrenby4jov" path="res://vehicle/chasis/normal_chasis/normal_chasis.tscn" id="3_5ldb6"]
+[ext_resource type="PackedScene" uid="uid://cve1icv6pr3l3" path="res://vehicle/tyre/wet_tyre/wet_tyre.tscn" id="4_8uubj"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_kcapl")
+tyres = [ExtResource("4_8uubj"), ExtResource("4_8uubj"), ExtResource("4_8uubj"), ExtResource("4_8uubj")]
+chasis = ExtResource("3_5ldb6")
+vehicle = ExtResource("2_fhphq")

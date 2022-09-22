@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://sg8rdhtbiqpo"]
+
+[ext_resource type="PackedScene" uid="uid://b4hm4x5hv8p8u" path="res://vehicle/chasis/chasis.tscn" id="1_oc3dl"]
+[ext_resource type="Texture2D" uid="uid://c1icks2uqbrem" path="res://assets/chasis red.png" id="2_jvcf1"]
+
+[node name="ExplosiveChasis" instance=ExtResource("1_oc3dl")]
+script = null
+
+[node name="ChasisRed" type="Sprite2D" parent="." index="0"]
+position = Vector2(165, 184)
+texture = ExtResource("2_jvcf1")
